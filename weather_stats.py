@@ -19,6 +19,7 @@ def print_weather_report(data):
         print(f"Day {i}: {day['temperature']}°C, {day['humidity']}% humidity - {day['condition']}")
 
 print("Weather Forecast Report Generator")
+#helppp
 
 if __name__ == "__main__":
     data = generate_weather_data()

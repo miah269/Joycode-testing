@@ -23,6 +23,8 @@ class BankAccount:
     def display_balance(self):
         print(f"{self.owner}'s balance: R{self.balance:.2f}")
 
+# Example usage of the BankAccount class
+
 if __name__ == "__main__":
     account = BankAccount("Alex", 500.00)
     account.display_balance()
